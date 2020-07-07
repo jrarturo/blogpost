@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+    nav .profile-link {
+        margin-right: 20px;
+    }
+    nav .profile-link a {
+        font-size: .7em;
+    }
+    .blogs-news-info-container .post-container {
+        max-width: 45%;
+    }
+    .projects-main-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .profile-main-container .profile-container {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .blogs-news-info-container .post-container {
+        max-width: 95%;
+    }
+}
